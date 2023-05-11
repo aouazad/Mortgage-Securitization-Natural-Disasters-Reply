@@ -1,0 +1,30 @@
+\begin{tabular}{lcccc}
+    \toprule
+    Dependent Variable: & \multicolumn{4}{c}{1 if Incorrect Treatment Year}\\
+    Model:                            & (1)            & (2)            & (3)            & (4)\\  
+    \midrule
+    \emph{Variables}\\
+    (Intercept)                       & 0.0741$^{***}$ & 0.0507$^{*}$   & 0.0391         & 0.0298\\   
+                                      & (0.0255)       & (0.0277)       & (0.0231)       & (0.0272)\\  
+                                      \\ 
+    Below Conforming Limit            & 0.0541$^{***}$ & 0.0847$^{***}$ & 0.0999$^{***}$ & 0.1121$^{***}$\\   
+                                      & (0.0184)       & (0.0283)       & (0.0268)       & (0.0322)\\   
+\\
+    $\Delta \log(\textrm{Loan Amount})$    &                & 7.980$^{**}$   & 9.818$^{***}$  & 11.29$^{***}$\\   
+                                      &                & (3.373)        & (3.229)        & (3.866)\\
+                                      \\   
+    $\Delta \log(\textrm{Loan Amount})^2$    &                &                & 4.686$^{**}$   & 5.353$^{**}$\\   
+                                      &                &                & (1.796)        & (1.956)\\
+                                      \\   
+    $\Delta \log(\textrm{Loan Amount})^3$    &                &                &                & -3.504\\   
+                                      &                &                &                & (2.195)\\   
+                                      \\
+    \midrule
+    \emph{Fit statistics}\\
+    Observations                      & 173,870        & 173,870        & 173,870        & 173,870\\  
+    R$^2$                             & 0.00518        & 0.00710        & 0.00812        & 0.00870\\  
+    Adjusted R$^2$                    & 0.00517        & 0.00709        & 0.00810        & 0.00867\\  
+    \midrule \midrule
+    \multicolumn{5}{l}{\emph{Clustered (ZCTA5 \& as\_of\_year) standard-errors in parentheses}}\\
+    \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+ \end{tabular}
