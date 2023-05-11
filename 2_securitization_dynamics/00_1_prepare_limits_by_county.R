@@ -2,20 +2,9 @@
 rm(list=ls())
 library(tidyverse)
 
-# IMPORTANT NOTES
-# !!!! Check that this 2009 file is consistent with later limits
-# !!!! One Unit Limit: does it apply to multi units? 
-# !!!! Should we check that some areas are not single-family?
-# !!!! 2008 has a special status: address this, needs digitization of the pdf
-# !!!! check this:
-#> warnings()
-#Warning messages:
-#  1: In read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  ... :
-#                   Expecting logical in L16170 / R16170C12: got 'AL'
-#                 2: In read_fun(path = enc2native(normalizePath(path)), sheet_i = sheet,  ... :
-#                                  Expecting logical in M16170 / R16170C13: got '33860'
-
-
+# this file uses the single-family conforming loan limits,
+# specific to each county
+# the format changes in 2008, this is accounted for here.
 
 # limits post 2008 -------------------------------------------------------------
 fn <- c(
@@ -30,9 +19,6 @@ fn <- c(
   "2009" = "limits/FullCountyLoanLimitList2009_ARRA.xls"
 )
 
-# !!!! Check that this 2009 file is consistent with later limits
-# !!!! One Unit Limit: does it apply to multi units? 
-# !!!! Should we check that some areas are not single-family?
 
 df2009 <- readxl::read_xls(fn["2009"]) %>%
   filter(Year == 2009) %>%
@@ -94,7 +80,6 @@ df <- rbind(
 )
 
 # limits 2008 ------------------------------------------------------------------
-# ! these are new loan limits. the old limit of 417000 applies unless specified
 
 df2008_extra <- read_csv("limits/AREA_LIST_5_2008.csv") %>%
   mutate(fips = sprintf("%05.0f", fips))
@@ -144,7 +129,6 @@ data.frame(
   year = selected_year
 )}) %>% { do.call(rbind, .) } 
 
-# !!! there is a change in 2008 itself
 
 
 # merge pre and post 2008 ------------------------------------------------------
