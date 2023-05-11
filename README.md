@@ -1,6 +1,6 @@
 # Mortgage Securitization Dynamics in the Aftermath of Natural Disasters: A Reply
 
-This archive provides the code for the paper _"Mortgage Securitization Dynamics in the Aftermath of Natural Disasters: A Reply"_, authored by Amine Ouazad (Rutgers Business School and HEC Montréal) and Matthew E. Kahn, Provost Professor of Economics at the University of Southern California.
+This archive provides the code for the paper _"Mortgage Securitization Dynamics in the Aftermath of Natural Disasters: A Reply"_, authored by Amine Ouazad, of Rutgers Business School and HEC Montreal, and Matthew E. Kahn, Provost Professor of Economics at the University of Southern California.
 
 There are three parts to this code:
 
