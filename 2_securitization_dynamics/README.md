@@ -1,6 +1,6 @@
 # Mortgage Securitization Dynamics in the Aftermath of Natural Disasters: A Reply
 
-This folder produces the results of Figures 6-11, and Tables 5-7.
+This folder produces the results of Figures 6-11, and Tables 5-7. Scripts 00 to 05 generate the file available at this [dropbox link](https://www.dropbox.com/s/o4b9ebllh7o9j5i/est_sample_for_revision.rds?dl=1) if you are in a hurry.
 
 - 00_1_prepare_limits_by_county.R
 
