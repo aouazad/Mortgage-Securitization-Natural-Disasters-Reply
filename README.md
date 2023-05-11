@@ -9,11 +9,15 @@ There are three parts to this code:
 3. The Monte Carlo simulations for the Analysis of the Rounding of HMDA Loans
 4. The Analysis of the Errors of LaCour-Little et al. (2022)
 
-## 1. Regression Discontinuity: The Impact of Natural Disasters on the Approval, Origination of Loans Conforming with Fannie Mae and Freddie Mac's Rules, and the Securitization of these Loans
+## 1. The Paper
+
+Includes the full TeX file and the BibTeX citations.
+
+## 2. Regression Discontinuity: The Impact of Natural Disasters on the Approval, Origination of Loans Conforming with Fannie Mae and Freddie Mac's Rules, and the Securitization of these Loans
 
 This section constructs the data set using (i)~Home Mortgage Disclosure Act data between 2000 and 2017, (ii)~the set of treated 5-digit ZIP codes, affected by one of the 15 billion dollar events.
 
-## 2. Monte Carlo Simulation: When HMDA Loan Amounts are Rounded, How Should We Count Conforming Loans?
+## 3. Monte Carlo Simulation: When HMDA Loan Amounts are Rounded, How Should We Count Conforming Loans?
 
 The R code in this folder studies the following question:
 
@@ -21,7 +25,7 @@ The R code in this folder studies the following question:
 
 The R code performs a Monte Carlo simulation. Assuming a _true model_ of a discontinuity in approval rates at the conforming loan limit, what is the specification using rounded HMDA loan amounts which best estimates such discontinuity? The Monte Carlo simulation suggests that the approach with the least bias and most precision uses HMDA loan amounts themselves rather than HMDA loan amounts rounded up, as in LaCour-Little et al. (2022).
 
-## 3. Errors in LaCour-Little et al. (2022)
+## 4. Errors in LaCour-Little et al. (2022)
 
 The R code in this folder relies on the LaCour-Little et al. archive stored either on their website, and with a snapshot available at [this link](http://www.ouazad.com/papers/lacour_little_data_archive.zip).
 
