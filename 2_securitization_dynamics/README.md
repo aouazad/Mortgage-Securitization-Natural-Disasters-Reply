@@ -33,9 +33,6 @@ Estimates the results of Figure 7 of the reply.
 - 07_lending_standards_regression_local_polynomial_regression.R
 
 Produces Figures 8-10.
-
-- 08_lending_standards_regression_baseline_reply_2023_RD_weighting.R
-
 Estimates of Tables 5-7.
 
 
