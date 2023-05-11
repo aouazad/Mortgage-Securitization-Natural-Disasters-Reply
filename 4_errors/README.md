@@ -12,4 +12,4 @@ For readers who might not have the space to download their archive, we also stor
 
 This produces the following table.
 
-!(Table of miscoding of hurricane treatment years)[http://www.ouazad.com/paper/Table_miscoding.PNG]
+!(Table of miscoding of hurricane treatment years)[http://www.ouazad.com/paper/Table_miscoding.PNG?raw=true "Title"]
