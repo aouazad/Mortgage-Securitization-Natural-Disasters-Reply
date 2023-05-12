@@ -1,10 +1,10 @@
 # Mortgage Securitization Dynamics in the Aftermath of Natural Disasters: A Reply
 
-This archive provides the code for the paper _"Mortgage Securitization Dynamics in the Aftermath of Natural Disasters: A Reply"_, authored by Amine Ouazad, of Rutgers Business School and HEC Montreal, and Matthew E. Kahn, Provost Professor of Economics at the University of Southern California.
+This archive provides the code for the paper [_"Mortgage Securitization Dynamics in the Aftermath of Natural Disasters: A Reply"_](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4445723), authored by Amine Ouazad, of Rutgers Business School and HEC Montreal, and Matthew E. Kahn, Provost Professor of Economics at the University of Southern California. This paper is a follow up of the paper published in 2022 in the Review of Financial Studies, [_"Mortgage Finance and Climate Change: Securitization Dynamics in the Aftermath of Natural Disasters"_](https://academic.oup.com/rfs/article-abstract/35/8/3617/6427560).
 
 There are three parts to this code:
 
-1. The TeX source of the reply. 
+1. The TeX source of the reply, posted as an online appendix to [NBER Working Paper 26322](https://www.nber.org/papers/w26322) and as an SSRN [Working](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4445723).
 2. The Creation of the Sample of Mortgages and the Regression Discontinuity Analysis
 3. The Monte Carlo simulations for the Analysis of the Rounding of HMDA Loans
 4. The Analysis of the Errors of LaCour-Little et al. (2022)
