@@ -13,7 +13,7 @@ There are three parts to this code:
 
 Includes the full TeX file and the BibTeX citations.
 
-## 2. Regression Discontinuity: The Impact of Natural Disasters on the Approval, Origination of Loans Conforming with Fannie Mae and Freddie Mac's Rules, and the Securitization of these Loans
+## 2. Regression Discontinuity: Billion-Dollar Disasters, Lending and Securitization Standards in the Conforming Segment
 
 This section constructs the data set using (i)~Home Mortgage Disclosure Act data between 2000 and 2017, (ii)~the set of treated 5-digit ZIP codes, affected by one of the 15 billion dollar events.
 
