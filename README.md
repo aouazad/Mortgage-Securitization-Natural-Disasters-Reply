@@ -33,5 +33,5 @@ It produces Tables 1--3 and Figure 1. These show that (i)~hurricane treatment ye
 
 ## References
 
-Ouazad, A. and Kahn, M.E., 2022. Mortgage finance and climate change: Securitization dynamics in the aftermath of natural disasters. The Review of Financial Studies, 35(8), pp.3617-3665.
+Ouazad, A. and Kahn, M.E., 2022. [Mortgage finance and climate change: Securitization dynamics in the aftermath of natural disasters](https://academic.oup.com/rfs/article-abstract/35/8/3617/6427560). The Review of Financial Studies, 35(8), pp.3617-3665.
 
