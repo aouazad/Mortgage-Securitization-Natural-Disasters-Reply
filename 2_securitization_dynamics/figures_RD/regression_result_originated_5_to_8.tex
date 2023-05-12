@@ -1,0 +1,55 @@
+\begingroup
+\centering
+\begin{tabular}{lcccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{4}{c}{originated}\\
+   Model:                                              & (1)             & (2)             & (3)             & (4)\\  
+   \midrule
+   \emph{Variables}\\
+   time\_m4 $\times$ treated                           & -0.0509         & -0.0378         & -0.0341         & -0.0327\\   
+                                                       & (0.0449)        & (0.0396)        & (0.0380)        & (0.0375)\\   
+   treated $\times$ time\_m3                           & -0.0128         & -0.0016         & 0.0028          & 0.0045\\   
+                                                       & (0.0259)        & (0.0194)        & (0.0176)        & (0.0170)\\   
+   treated $\times$ time\_m2                           & 0.0135          & 0.0147$^{*}$    & 0.0144$^{*}$    & 0.0142$^{*}$\\   
+                                                       & (0.0084)        & (0.0071)        & (0.0070)        & (0.0071)\\   
+   treated $\times$ time\_0                            & -0.0186         & -0.0114         & -0.0089         & -0.0079\\   
+                                                       & (0.0120)        & (0.0087)        & (0.0072)        & (0.0066)\\   
+   treated $\times$ time\_1                            & -0.0495$^{***}$ & -0.0382$^{***}$ & -0.0341$^{***}$ & -0.0325$^{***}$\\   
+                                                       & (0.0088)        & (0.0073)        & (0.0070)        & (0.0070)\\   
+   treated $\times$ time\_2                            & -0.0641$^{***}$ & -0.0611$^{***}$ & -0.0601$^{***}$ & -0.0598$^{***}$\\   
+                                                       & (0.0131)        & (0.0138)        & (0.0146)        & (0.0149)\\   
+   treated $\times$ time\_3                            & -0.0901$^{***}$ & -0.0903$^{***}$ & -0.0907$^{***}$ & -0.0909$^{***}$\\   
+                                                       & (0.0292)        & (0.0282)        & (0.0283)        & (0.0284)\\   
+   treated $\times$ time\_4                            & -0.0480         & -0.0396         & -0.0362         & -0.0350\\   
+                                                       & (0.0348)        & (0.0281)        & (0.0268)        & (0.0264)\\   
+   time\_m4 $\times$ treated $\times$ below\_limit     & 0.0377$^{*}$    & 0.0179          & 0.0113          & 0.0087\\   
+                                                       & (0.0209)        & (0.0137)        & (0.0124)        & (0.0121)\\   
+   treated $\times$ time\_m3 $\times$ below\_limit     & 0.0216          & 0.0070          & 0.0006          & -0.0020\\   
+                                                       & (0.0204)        & (0.0134)        & (0.0125)        & (0.0125)\\   
+   treated $\times$ time\_m2 $\times$ below\_limit     & -0.0058         & -0.0066         & -0.0061         & -0.0059\\   
+                                                       & (0.0061)        & (0.0058)        & (0.0067)        & (0.0073)\\   
+   treated $\times$ time\_0 $\times$ below\_limit      & 0.0036          & -0.0022         & -0.0052         & -0.0065\\   
+                                                       & (0.0140)        & (0.0091)        & (0.0077)        & (0.0073)\\   
+   treated $\times$ time\_1 $\times$ below\_limit      & 0.0267$^{**}$   & 0.0143          & 0.0095          & 0.0075\\   
+                                                       & (0.0100)        & (0.0085)        & (0.0086)        & (0.0088)\\   
+   treated $\times$ time\_2 $\times$ below\_limit      & 0.0312$^{**}$   & 0.0230$^{**}$   & 0.0207$^{**}$   & 0.0199$^{**}$\\   
+                                                       & (0.0132)        & (0.0097)        & (0.0090)        & (0.0091)\\   
+   treated $\times$ time\_3 $\times$ below\_limit      & 0.0586$^{***}$  & 0.0483$^{***}$  & 0.0446$^{**}$   & 0.0432$^{**}$\\   
+                                                       & (0.0177)        & (0.0151)        & (0.0152)        & (0.0154)\\   
+   treated $\times$ time\_4 $\times$ below\_limit      & 0.0184          & 0.0115          & 0.0069          & 0.0048\\   
+                                                       & (0.0244)        & (0.0156)        & (0.0140)        & (0.0136)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   year\_below                                         & Yes             & Yes             & Yes             & Yes\\  
+   ZCTA5CE10\_below                                    & Yes             & Yes             & Yes             & Yes\\  
+   name\_event\_below                                  & Yes             & Yes             & Yes             & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                                        & 2,572,574       & 2,572,574       & 2,572,574       & 2,572,574\\  
+   R$^2$                                               & 0.06785         & 0.06584         & 0.06548         & 0.06545\\  
+   Within R$^2$                                        & 0.00015         & 0.00016         & 0.00017         & 0.00017\\  
+   \midrule \midrule
+   \multicolumn{5}{l}{\emph{Clustered (ZCTA5CE10 \& year) standard-errors in parentheses}}\\
+   \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
