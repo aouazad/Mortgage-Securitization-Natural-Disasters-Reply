@@ -15,7 +15,10 @@ Includes the full TeX file and the BibTeX citations.
 
 ## 2. Regression Discontinuity: Billion-Dollar Disasters, Lending and Securitization Standards in the Conforming Segment
 
-This section constructs the data set using (i)~Home Mortgage Disclosure Act data between 2000 and 2017, (ii)~the set of treated 5-digit ZIP codes, affected by one of the 15 billion dollar events.
+This section constructs the data set using
+
+1. Home Mortgage Disclosure Act data between 2000 and 2017,
+2. the set of treated 5-digit ZIP codes, affected by one of the 15 billion dollar events.
 
 ## 3. Monte Carlo Simulation: When HMDA Loan Amounts are Rounded, How Should We Count Conforming Loans?
 
