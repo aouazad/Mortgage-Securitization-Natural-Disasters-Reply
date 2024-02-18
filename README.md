@@ -29,7 +29,11 @@ The R code performs a Monte Carlo simulation. Assuming a _true model_ of a disco
 
 The R code in this folder relies on the LaCour-Little et al. archive stored either on their website, and with a snapshot available at [this link](http://www.ouazad.com/paper/lacour_little_data_archive.zip).
 
-It produces Tables 1--3 and Figure 1. These show that (i)~hurricane treatment years are miscoded, likely because of a flaw in the event study design, (ii)~such miscoding is bunched at the conforming loan limit, thus affecting the estimates, (iii)~93,231 treated observations have no time indicator variable equal to 1. They are thus contributing to the identification of the control group.
+It produces Tables 1--3 and Figure 1. These show that
+
+1. hurricane treatment years are miscoded, likely because of a flaw in the event study design,
+2. such miscoding is bunched at the conforming loan limit, thus affecting the estimates,
+3. 93,231 treated observations have no time indicator variable equal to 1. They are thus contributing to the identification of the control group.
 
 ## References
 
